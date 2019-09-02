@@ -20,6 +20,7 @@ It's for the translations of different kind of languages.
 
 6. Why is the layout in Android specified by .xml files?  Why not just have the layout in the code (Kotlin or Java)?
 The xml build up the files easily with an design.
+To leep layout and code separated from each other.
 
 7. In the level 1 example the following code was used: btnConfirm   .setOnClickListener What is a listener and what is the underlying design pattern?
-The listener is watching for the click that is going to happen, then an action will happen.  
+The listener is watching for the click that is going to happen, then an action will happen. It's a server pattern.  
